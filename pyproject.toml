@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "collectorbot"
+version = "0.1.0"
+description = "Bot for collecting species data from chanels in telegram."
+authors = ["Covald <rezin.p@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+
+
+[tool.poetry.group.dev.dependencies]
+icecream = "^2.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
